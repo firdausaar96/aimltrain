@@ -17,5 +17,5 @@ try:
 
   print(f"The greatest number is: {greatest_number}")
 
-except ValueError:
+except Execption as e:
   print("Invalid input. Please enter valid numbers.")
